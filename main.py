@@ -3,10 +3,6 @@
 #json 으로 저장하려면? - json module 사용해서 저장 (객체 > 딕션어리 > json) / json.load() - json > 딕션어리 > 객체 
 #json은 주석을 달 수 없음..
 
-
-
-#branch가 빠져나오려면 main에서 해야한다며?
-
 from game import QuizGame   #game.py 에서 QuizGame class를 가져온다
 
 def main():
