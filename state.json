@@ -1,25 +1,45 @@
 {
- "quizzes": [   {
+    "quizzes": [
+        {
             "question": "파이썬에서 문자열을 감싸는 기호로 알맞은 것은?",
-            "choices": ["1. '' 또는 \"\"", "2. //", "3. ##", "4. &&"],
+            "choices": [
+                "1. '' 또는 \"\"",
+                "2. //",
+                "3. ##",
+                "4. &&"
+            ],
             "answer": 1
         },
         {
             "question": "파이썬에서 리스트(List)의 특징으로 옳은 것은?",
-            "choices": ["1. 값 변경이 불가능하다", "2. 순서가 없다", "3. 중복을 허용하지 않는다", "4. 값 변경이 가능하다"],
+            "choices": [
+                "1. 값 변경이 불가능하다",
+                "2. 순서가 없다",
+                "3. 중복을 허용하지 않는다",
+                "4. 값 변경이 가능하다"
+            ],
             "answer": 4
         },
         {
             "question": "다음 중 파이썬의 반복문이 아닌 것은?",
-            "choices": ["1. for", "2. while", "3. loop", "4. None"],
+            "choices": [
+                "1. for",
+                "2. while",
+                "3. loop",
+                "4. None"
+            ],
             "answer": 3
         },
         {
             "question": "파이썬에서 함수를 정의할 때 사용하는 키워드는?",
-            "choices": ["1. func", "2. define", "3. def", "4. function"],
+            "choices": [
+                "1. func",
+                "2. define",
+                "3. def",
+                "4. function"
+            ],
             "answer": 3
         }
     ],
-    "high_score": 1
+    "high_score": 3
 }
-
