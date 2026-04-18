@@ -2,7 +2,7 @@
 #왜 json을 사용하는가? - 데이터 교환이 쉽고, 다양한 언어에서 지원되며, 사람이 읽기 쉽기 때문 => 구조적으로 해결해주기 때문에
 #json 으로 저장하려면? - json module 사용해서 저장 (객체 > 딕션어리 > json) / json.load() - json > 딕션어리 > 객체 
 #json은 주석을 달 수 없음..
-#branch branch
+
 
 
 #branch가 빠져나오려면 main에서 해야한다며?
