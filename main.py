@@ -5,6 +5,8 @@
 #branch branch
 
 
+#branch가 빠져나오려면 main에서 해야한다며?
+
 from game import QuizGame   #game.py 에서 QuizGame class를 가져온다
 
 def main():
