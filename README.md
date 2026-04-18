@@ -375,3 +375,9 @@ JSON 형식 오류 → 초기화
 파일 읽기/쓰기 실패 → 에러 메시지 출력
 
 👉 이는 Python의 try/except를 활용한 예외 처리 구조를 적용한 것
+
+
+![alt text](image.png)
+
+$ git pull
+Already up to date.

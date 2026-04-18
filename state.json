@@ -39,6 +39,26 @@
                 "4. function"
             ],
             "answer": 3
+        },
+        {
+            "question": "배고플 때 먹을 것",
+            "choices": [
+                "1. 피자",
+                "2. 라면",
+                "3. 샌드위치",
+                "4. 과자"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "2",
+            "choices": [
+                "1. jjjj",
+                "2. jjjj",
+                "3. jjj",
+                "4. jjj"
+            ],
+            "answer": 2
         }
     ],
     "high_score": 3

@@ -15,14 +15,14 @@ def main():
         try:
             # 현재 게임 상태 저장 시도
             if hasattr(game, 'save_quizzes'):    #hasattr() - 객체가 특정 속성이나 메서드를 가지고 있는지 확인하는 함수(내장함수 like "IOError, json.JSONDecodeError")
-                game.save_quizzes()
+                game.save_quizzes()                 #없어도 되긴 함...  그냥 신기해서
             if hasattr(game, 'save_high_score'):
                 game.save_high_score()
             print("✅ 데이터가 성공적으로 저장되었습니다.")   #2개의 if절 (2개의 메서드가 확인) 통과 되었을 때만
         except Exception as e:   #Exception - 모든 예외의 기본 클래스, 어떤 종류의 예외가 발생하든지 잡아낼 수 
             print(f"⚠️  데이터 저장 중 오류가 발생했습니다: {e}")
         print("게임을 종료합니다. 안녕히 가세요!")
-    except EOFError:     #입력 스트림 종료 시 (맨 위 try 에 걸림)
+    except EOFError:     #파일의 맨 끝 (맨 위 try 에 걸림)
         print("\n\n⚠️  입력 스트림이 종료되었습니다.")
         print("안전하게 종료하기 위해 데이터를 저장합니다...")
         try:
